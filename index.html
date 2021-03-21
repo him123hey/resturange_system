@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturange</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Romdul Resturange</h1>
+    </div>
+    <div class="container">
+        <div class="col">
+            <form>
+                <label for="table">Select Table</label><br>
+                <select name="table" id="table">
+                    <option selected>Choose Table</option>
+                    <option value="1">Table 01</option>
+                    <option value="2">Table 02</option>
+                    <option value="3">Table 03</option>
+                    <option value="4">Table 04</option>
+                </select> <br>
+                <label for="food">Food Name</label><br>
+                <input type="text" name="food" id="food"><br>
+                <label for="quantity">Quantity</label><br>
+                <input type="text" name="quantity" id="quantity"><br>
+                <label for="price">Price</label> <br>
+                <input type="number" name="price" id="price"><br>
+                <button type="button" onclick="process()">Add Food</button>
+            </form>
+        </div>
+        <div class="col" id="display_card">
+            <div class="table">
+            <h3>Table 01</h3>
+               <hr>
+            </div>
+            <div class="table">
+                <h3>Table 02</h3>
+                <hr>
+            </div>
+            <div class="table">
+                <h3>Table 03</h3>
+                <hr>
+            </div>
+            <div class="table">
+                <h3>Table 04</h3>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

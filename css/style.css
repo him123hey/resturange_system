@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    font-family: sans-serif;
+}
+.header{
+    background: green;
+    padding: 1px;
+    margin: 0;
+    color: white;
+}
+h1{
+    margin-left: 70px;
+}
+.container{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 450px 700px;
+}
+.col{
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+input{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    outline: none;
+}
+button{
+    padding: 12px;
+    width: 96%;
+    border: none;
+    outline-style: none;
+    background: green;
+    color: white;
+}
+#display_card{
+    display: grid;
+    grid-template-columns:auto auto;
+}
+.table{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(202, 161, 161);
+}
+select{
+    width: 96%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
